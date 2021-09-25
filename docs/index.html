@@ -18,17 +18,8 @@
       repo: ''
       plugins: [
         EditOnGithubPlugin.create(
-      'https://github.com/stephen-quiton/test-wiki-docsify/blob/main/docs/',
-      null,
-      function(file) {
-        if (file.indexOf('en') === -1) {
-          return '编辑'
-        } else {
-          return 'edit on git'
-        }
-      }
-    )
-        
+          'https://github.com/stephen-quiton/test-wiki-docsify/blob/main/docs/',
+        )
       ]
     }
   </script>
